@@ -4,7 +4,7 @@ pipeline {
 		stage('Checkout') {
 			steps {
 				echo 'Checkout completed'
-				echo 'Checkout is done'
+				echo 'Checking webhook'
 
 			}
 		}
