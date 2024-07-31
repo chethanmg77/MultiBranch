@@ -4,6 +4,8 @@ pipeline {
 		stage('Checkout') {
 			steps {
 				echo 'Checkout completed'
+				echo 'Checkout is done'
+
 			}
 		}
 		stage('Static-test') {
